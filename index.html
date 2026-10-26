@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CertiChain — Trust Every Credential</title>
+
+    <meta name="description"
+          content="CertiChain helps institutions issue, manage and verify digital certificates securely.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="brand">
+            <span class="brand-icon">C</span>
+            <span>Certi<span class="brand-highlight">Chain</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How it works</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#verify" class="nav-verify">Verify certificate</a>
+            <a href="#issue" class="button button-primary">Get started ↗</a>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation">☰</button>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section-container" id="home">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    TRUSTED DIGITAL CREDENTIALS
+                </div>
+
+                <h1>
+                    Certificates you can
+                    <span class="gradient-text">trust.</span><br>
+                    Credentials you can
+                    <span class="gradient-text">verify.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Issue, manage and verify digital certificates with a
+                    smarter verification platform designed for the future
+                    of trust.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#issue" class="button button-primary button-large">
+                        Issue a certificate <span>↗</span>
+                    </a>
+
+                    <a href="#verify" class="button button-secondary button-large">
+                        Verify a certificate <span>→</span>
+                    </a>
+                </div>
+
+                <div class="trust-row">
+                    <div class="trust-icon">✓</div>
+                    <p>Secure records <span>·</span> Transparent verification</p>
+                </div>
+
+            </div>
+
+
+            <!-- Certificate Preview -->
+            <div class="hero-visual">
+
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+
+                <div class="floating-tag tag-top">
+                    <span class="tag-icon">✦</span>
+                    <div>
+                        <strong>Digital by design</strong>
+                        <small>Built for trust</small>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+
+                    <div class="certificate-top">
+                        <div class="certificate-brand">
+                            <span class="mini-brand">C</span>
+                            CERTICHAIN
+                        </div>
+                        <span class="certificate-label">DIGITAL CREDENTIAL</span>
+                    </div>
+
+                    <div class="certificate-emblem">✦</div>
+
+                    <p class="certificate-overline">
+                        CERTIFICATE OF ACHIEVEMENT
+                    </p>
+
+                    <h2>Certificate of<br>Excellence</h2>
+
+                    <p class="certificate-copy">
+                        This certificate is presented to
+                    </p>
+
+                    <h3 id="previewName">Alex Morgan</h3>
+
+                    <div class="certificate-line"></div>
+<p class="certificate-course" id="previewCourse">
+    Full Stack Development Program
+</p>
+             
+
+                    <div class="certificate-bottom">
+                        <div>
+                            <small>CERTIFICATE ID</small>
+                          <strong id="previewCertificateId">CC-2026-8F29A1</strong>
+                        </div>
+
+                        <div class="verified-seal">
+                            <span>✓</span>
+                            <small>VERIFIED</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="floating-tag tag-bottom">
+                    <span class="verified-icon">✓</span>
+                    <div>
+                        <strong>Verification ready</strong>
+                        <small>Unique certificate identity</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Stats -->
+        <section class="stats-section section-container">
+
+            <div class="stat-card">
+                <span class="stat-symbol">◈</span>
+                <div>
+                    <h3>Secure</h3>
+                    <p>Certificate records</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-symbol">✓</span>
+                <div>
+                    <h3>Verifiable</h3>
+                    <p>Credential authenticity</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-symbol">⌘</span>
+                <div>
+                    <h3>Efficient</h3>
+                    <p>Digital certificate workflow</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-symbol">↗</span>
+                <div>
+                    <h3>Future-ready</h3>
+                    <p>Blockchain integration</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Features -->
+        <section class="features-section section-container" id="features">
+
+            <div class="section-heading">
+                <div class="eyebrow">POWERFUL BY DESIGN</div>
+
+                <h2>
+                    Everything you need.<br>
+                    <span class="gradient-text">Nothing you don't.</span>
+                </h2>
+
+                <p>
+                    A simpler way to issue credentials and establish trust
+                    in every certificate.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon red-icon">✦</div>
+                    <h3>Issue certificates</h3>
+                    <p>
+                        Create digital certificates with unique IDs and
+                        organized recipient information.
+                    </p>
+                    <a href="#issue">Issue a certificate <span>↗</span></a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon purple-icon">⌕</div>
+                    <h3>Instant verification</h3>
+                    <p>
+                        Look up a certificate by its unique ID and check
+                        its recorded details.
+                    </p>
+                    <a href="#verify">Verify credentials <span>↗</span></a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon green-icon">⬡</div>
+                    <h3>Blockchain ready</h3>
+                    <p>
+                        Prepare certificate fingerprints for tamper-evident
+                        blockchain verification.
+                    </p>
+                    <a href="#how-it-works">Explore the process <span>↗</span></a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Issue Certificate -->
+        <section class="workspace-section section-container" id="issue">
+
+            <div class="workspace-heading">
+                <div>
+                    <div class="eyebrow">CERTIFICATE MANAGEMENT</div>
+                    <h2>Issue a certificate</h2>
+                    <p>Create a digital credential for a student or recipient.</p>
+                </div>
+
+                <span class="demo-badge">DEMO WORKSPACE</span>
+            </div>
+
+            <div class="workspace-card">
+
+                <div class="workspace-card-header">
+                    <div class="workspace-card-icon">✦</div>
+                    <div>
+                        <h3>New certificate</h3>
+                        <p>Enter the recipient's details below.</p>
+                    </div>
+                </div>
+
+                <form id="issueForm">
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="recipientName">Recipient's full name</label>
+                            <input id="recipientName" name="recipientName"
+                                   type="text" placeholder="e.g. Alex Morgan" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="recipientEmail">Recipient's email</label>
+                            <input id="recipientEmail" name="recipientEmail"
+                                   type="email" placeholder="alex@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="courseName">Course / achievement</label>
+                            <input id="courseName" name="courseName"
+                                   type="text" placeholder="e.g. Web Development" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="institutionName">Issuing institution</label>
+                            <input id="institutionName" name="institutionName"
+                                   type="text" placeholder="Institution name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="issueDate">Issue date</label>
+                            <input id="issueDate" name="issueDate"
+                                   type="date" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-footer">
+                        <p>✦ Certificate details will be used to create a record.</p>
+                        <button type="submit" class="button button-primary">
+                            Create certificate ↗
+                        </button>
+                    </div>
+
+                    <p id="issueMessage" class="form-message" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- Verify Certificate -->
+        <section class="verify-section section-container" id="verify">
+
+            <div class="verify-content">
+                <div class="eyebrow">VERIFY WITH CONFIDENCE</div>
+
+                <h2>
+                    Is your certificate<br>
+                    <span class="gradient-text">the real deal?</span>
+                </h2>
+
+                <p>
+                    Enter a certificate ID to check whether a matching
+                    certificate record exists in the system.
+                </p>
+
+                <form id="verifyForm" class="verify-form">
+                    <label for="certificateId">Certificate ID</label>
+
+                    <div class="verify-input-row">
+                        <input id="certificateId" type="text"
+                               placeholder="e.g. CC-2026-8F29A1" required>
+
+                        <button type="submit" class="button button-primary">
+                            Verify →
+                        </button>
+                    </div>
+                </form>
+
+                <div id="verifyResult" class="verify-result"
+                     aria-live="polite"></div>
+            </div>
+
+            <div class="verify-visual">
+                <div class="verification-orbit orbit-one"></div>
+                <div class="verification-orbit orbit-two"></div>
+
+                <div class="verification-center">
+                    <span>✓</span>
+                </div>
+
+                <div class="orbit-label orbit-label-one">Identity</div>
+                <div class="orbit-label orbit-label-two">Integrity</div>
+                <div class="orbit-label orbit-label-three">Trust</div>
+            </div>
+
+        </section>
+
+
+        <!-- How it works -->
+        <section class="how-section section-container" id="how-it-works">
+
+            <div class="section-heading">
+                <div class="eyebrow">SIMPLE. SECURE. TRANSPARENT.</div>
+                <h2>Trust in three steps.</h2>
+                <p>A clear process from certificate creation to verification.</p>
+            </div>
+
+            <div class="steps-grid">
+
+                <article class="step-card">
+                    <span class="step-number">01</span>
+                    <h3>Issue</h3>
+                    <p>
+                        An institution enters recipient and achievement
+                        details to create a certificate record.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">02</span>
+                    <h3>Record</h3>
+                    <p>
+                        The system assigns a unique identifier and records
+                        the certificate information.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">03</span>
+                    <h3>Verify</h3>
+                    <p>
+                        Anyone with the certificate ID can check the
+                        matching record and its status.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section section-container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+
+                <div>
+                    <div class="eyebrow">A BETTER WAY TO BUILD TRUST</div>
+                    <h2>Make every credential count.</h2>
+                    <p>Start issuing and verifying digital certificates.</p>
+                </div>
+
+                <a href="#issue" class="button button-light">
+                    Get started <span>↗</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-inner">
+
+            <a href="#home" class="brand">
+                <span class="brand-icon">C</span>
+                <span>Certi<span class="brand-highlight">Chain</span></span>
+            </a>
+
+            <p>Building trust in every digital credential.</p>
+
+            <span class="footer-copy">
+                © 2026 CertiChain · Hackathon Prototype
+            </span>
+
+        </div>
+    </footer>
+
+<script src="node_modules/jspdf/dist/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+```html
+<section class="records-section" id="records">
+    <div class="records-container">
+        <h2>Certificate Records</h2>
+        <p class="records-subtitle">
+            Explore certificate records issued through CertiChain.
+        </p>
+
+        <div class="records-card">
+            <div>
+                <h3>Certificate Verification</h3>
+                <p>Verify a certificate using its unique certificate ID.</p>
+            </div>
+            <a href="#verify" class="records-button">Verify Certificate</a>
+        </div>
+
+        <div class="records-note">
+            <strong>Transparency matters.</strong>
+            <p>
+                This section currently provides a quick link to verification.
+                A public certificate registry can be connected in a later step.
+            </p>
+        </div>
+    </div>
+</section>
+```
+
+</body>
+</html>
